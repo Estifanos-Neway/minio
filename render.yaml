@@ -13,6 +13,7 @@ services:
   disk:
     name: data
     mountPath: /data
+  plan: free
   envVars:
   - key: MINIO_ROOT_USER
     generateValue: true
